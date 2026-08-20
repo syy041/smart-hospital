@@ -272,3 +272,101 @@
 > **預約成功頁Wireframe**
 
 ![預約成功頁Wireframe](../screenshots/reservation-confirmed-wireframe.png)
+
+
+
+## 2026/08/20 - Figma Wireframe設計
+
+### 目標
+
+完成智慧醫院管理平台第一階段「醫院預約網站」的我的預約頁、預約詳細頁、取消預約頁、預約取消成功頁、就醫資訊頁、登入/註冊頁Wireframe。
+
+### 完成
+
+- 完成我的預約頁Wireframe
+- 完成預約詳細頁Wireframe
+- 完成取消預約頁Wireframe
+- 完成預約取消成功頁Wireframe
+- 完成就醫資訊頁Wireframe
+- 完成登入/註冊頁Wireframe
+- 規劃預約詳細頁Prototype會接到那些畫面
+- 規劃註冊頁所需資料
+
+### 設計思考
+
+本次主要以"使用者查看/取消預約"、"登入/註冊"為核心，完成我的預約頁、預約詳細頁、取消預約頁、預約取消成功頁、就醫資訊頁、登入/註冊頁，七個頁面。
+
+我的預約頁 : 提供預約狀態篩選，讓使用者可以快速查看自己的預約。
+
+預約詳細頁 : 查看預約詳情，並提供取消預約按鈕。
+
+取消預約頁 : 再次讓使用者確認是否取消預約。
+(這頁到時候設定Prototype會從下面彈出頁面。)
+
+預約取消成功頁 : 顯示成功取消，並提供返回我的預約按鈕。
+
+就醫資訊頁 : 提供就醫流程、就診須知等相關資訊。
+
+登入/註冊頁 : 讓使用者填寫基本訊息並註冊帳號，方便後面登入。
+
+### 遇到的問題
+
+1.不知道「 預約詳細頁 」的點擊查看詳情按鈕和取消預約按鈕，是直接切換新畫面還是以由下往上彈出的形式呈現。
+
+2.註冊時所填寫的資料需不需要放體重、病史等相關資料。
+
+### 解決方式
+
+1.詢問AI建議，「 像預約詳細頁 」的點擊查看詳情按鈕，有大量資訊就是切換到新頁面;取消預約按鈕會顯示小段的提示文字，適合由下往上彈出的形式。
+
+2.AI建議我註冊頁面放基本資料，而關於醫療資料就放在醫師端。
+
+### 今日學習
+
+- 了解取消預約流程
+- 了解註冊頁內容
+- 學習如何設計查看預約到取消預約的流程
+- 開始思考這些頁面要怎麼設計Prototype
+
+### 下一步
+
+- 完成每頁的UI設計
+
+### AI協助
+透過AI發想排版思路與資訊架構，協助校對並修正版面佈局，提供解決方法和功能設計建議。
+
+### 今日學習成果
+
+> **我的預約頁Wireframe**
+
+![我的預約頁Wireframe](../screenshots/my-reservation-wireframe.png)
+
+
+> **預約詳細頁Wireframe**
+
+![預約詳細頁Wireframe](../screenshots/reservation-details-wireframe.png)
+
+
+> **取消預約頁Wireframe**
+
+![取消預約頁Wireframe](../screenshots/cancel-reservation-wireframe.png)
+
+
+> **預約取消成功頁Wireframe**
+
+![預約取消成功頁Wireframe](../screenshots/cancellation-successful-wireframe.png)
+
+> **就醫資訊頁Wireframe**
+
+![就醫資訊頁Wireframe](../screenshots/medical-information-wireframe.png)
+
+> **登入頁Wireframe**
+
+![登入頁Wireframe](../screenshots/log-in-wireframe.png)
+
+> **註冊頁Wireframe**
+
+![註冊頁Wireframe](../screenshots/register-wireframe.png)
+
+
+
