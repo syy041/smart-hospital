@@ -93,105 +93,6 @@
 
 ![首頁 Wireframe](./screenshots/# Development Log
 
-## 2026/08/15 - 需求分析
-
-### 完成
-- 完成智慧醫院管理平台第一階段需求分析
-- 定義病人與醫師兩種使用者角色
-- 規劃病人預約流程
-- 確定第一階段開發範圍
-
-### 遇到的問題
-一開始不知道醫院網站應該包含哪些功能，
-也不確定是否應該同時開發病人端與醫師端。
-
-### 解決方式
-參考實際醫院網站的掛號流程，
-將系統拆分成病人端與醫師端，
-第一階段以病人預約功能為主要開發內容。
-
-### 學到什麼
-了解需求分析不只是列功能，
-還需要確認使用者、使用情境與開發範圍。
-
-### 下一步
-
-- 完成首頁和醫院介紹頁Wireframe
-- 學習規劃網站資訊架構
-- 學習區分功能區塊
-
-### AI協助
-使用AI協助檢查有沒有缺的功能/改進的功能描述，並請AI整理實際醫院網站使用流程作參考。
-
-
-## 2026/08/16 - Figma Wireframe設計
-
-### 目標
-
-完成智慧醫院管理平台第一階段「醫院預約網站」的首頁與醫院介紹頁Wireframe。
-
-### 完成
-
-- 完成首頁 Wireframe 初版
-- 調整首頁資訊架構
-- 新增快速服務區塊
-- 新增尋找醫師功能區塊
-- 完成最新公告區塊
-- 完成 Footer 資訊規劃
-- 完成醫院介紹頁Wireframe
-- 規劃醫院簡介、醫療理念、醫療服務、醫療團隊、交通與聯絡等區塊
-
-### 設計思考
-
-原本首頁的資訊比較偏向一般形象網站，因此重新調整首頁的資訊層級。
-
-將「預約掛號」、「醫師查詢」、「查詢預約」、「就醫資訊」放在快速服務區域，讓使用者可以快速找到主要功能。
-
-另外新增「尋找醫師」區塊，讓使用者可以從首頁搜尋醫師姓名、科別或專長。
-
-醫院介紹頁則將醫院資訊與首頁功能區分開，主要介紹醫院本身、醫療理念、醫療服務、醫療團隊以及交通與聯絡資訊。
-
-### 遇到的問題
-
-一開始不確定醫院網站首頁應該放哪些內容，也不確定哪些功能應該放在導覽列。
-
-不知道怎樣的排版比較接近正式的醫院系統，或是怎樣的排版方式會讓使用者一目了然。
-
-### 解決方式
-
-重新思考使用者進入醫院網站後最常進行的操作，將主要功能集中在首頁的快速服務區域。
-
-同時將「醫院介紹」頁面定位為介紹醫院本身，而不是放置預約等主要操作功能。
-
-### 今日學習
-
-- 了解Wireframe的用途
-- 了解網站資訊架構的重要性
-- 開始區分「網站介紹內容」與「系統功能」
-- 了解首頁需要優先呈現使用者最常使用的功能
-- 練習使用 Figma 規劃網站頁面結構
-
-### 下一步
-
-- 完成醫師查詢頁Wireframe
-- 規劃醫師搜尋與科別篩選流程
-- 規劃醫師詳細資料頁
-
-### AI協助
-透過AI發想排版思路與資訊架構，協助校對並修正版面佈局。
-
-### 今日學習成果
-
-> **首頁Wireframe**
-
-![首頁Wireframe](../screenshots/home-wireframe.png)
-
-
-
-> **醫院介紹Wireframe**
-
-![醫院介紹Wireframe](../screenshots/about-wireframe.png)
-
 
 ## 2026/08/18 - Figma Wireframe設計
 
@@ -254,11 +155,6 @@
 
 ### 今日學習成果
 
-> **醫師查詢頁Wireframe**
-
-![醫師查詢頁Wireframe](../screenshots/physician-search-wireframe.png)
-
-
 > **醫師詳細資料頁Wireframe**
 
 ![醫師詳細資料頁Wireframe](../screenshots/physician-profile-wireframe.png)
@@ -267,12 +163,6 @@
 > **預約掛號頁Wireframe**
 
 ![預約掛號頁Wireframe](../screenshots/reserve-wireframe.png)
-
-
-> **預約成功頁Wireframe**
-
-![預約成功頁Wireframe](../screenshots/reservation-confirmed-wireframe.png)
-
 
 
 ## 2026/08/20 - Figma Wireframe設計
@@ -341,32 +231,75 @@
 
 ![我的預約頁Wireframe](../screenshots/my-reservation-wireframe.png)
 
-
-> **預約詳細頁Wireframe**
-
-![預約詳細頁Wireframe](../screenshots/reservation-details-wireframe.png)
-
-
-> **取消預約頁Wireframe**
-
-![取消預約頁Wireframe](../screenshots/cancel-reservation-wireframe.png)
-
-
-> **預約取消成功頁Wireframe**
-
-![預約取消成功頁Wireframe](../screenshots/cancellation-successful-wireframe.png)
-
-> **就醫資訊頁Wireframe**
-
-![就醫資訊頁Wireframe](../screenshots/medical-information-wireframe.png)
-
-> **登入頁Wireframe**
-
-![登入頁Wireframe](../screenshots/log-in-wireframe.png)
-
 > **註冊頁Wireframe**
 
 ![註冊頁Wireframe](../screenshots/register-wireframe.png)
 
 
 
+## 2026/08/26 - UI 設計
+
+### 今日目標
+
+開始將智慧醫院管理平台第一階段「醫院預約網站」的Wireframe轉換為正式UI設計。
+
+### 完成
+
+- 完成首頁UI設計
+- 完成醫院介紹頁UI設計
+- 完成醫師查詢頁UI設計
+- 建立網站主要色彩與視覺風格
+- 統一標題、按鈕、輸入框與卡片等元件的設計，設定元件Prototype
+- 調整各頁面的間距、文字大小與版面配置
+- 開始建立網站共用的UI Component
+
+### 設計思考
+
+本次開始將先前完成的Wireframe轉換成實際的UI設計。
+
+整體視覺以「醫療、科技、簡潔」為主要方向，因此選擇淺藍色作為主要視覺色彩，搭配白色與深藍色，讓網站具有醫療網站的專業感，同時保持簡潔易讀。
+
+首頁:主要建立按鈕Prototype component，設定Hover懸浮效果和點擊效果、方便後面頁面直接做使用。
+
+醫院介紹頁:建立醫療服務卡片Prototype，讓卡片頁面呈現往左滑動效果。
+
+醫師查詢頁:建立查詢輸入框Prototype component，設定Hover懸浮效果和點擊效果，醫師列表顯示6張卡片作為範例。
+
+### 遇到的問題
+
+1. Wireframe原本比較偏向功能與版面配置，轉換成UI後需要重新調整文字大小、間距與區塊比例。
+2. 不確定網站應該使用哪些顏色，才能同時符合醫療網站的風格並保持一致。
+3. 按鈕和輸入框Hover效果和點擊效果不知道怎麼呈現。
+
+### 解決方式
+
+1. 以Wireframe作為版面基礎，再逐一調整字體大小、間距、區塊高度與對齊方式。
+2. 使用淺藍色作為主要色彩，搭配白色背景與深藍色Footer，建立醫療網站的視覺風格。
+3. 詢問AI建議，Hover顏色變淺，點擊效果在更淺。
+
+### 今日學習
+
+- 了解Wireframe與UI Design的差異
+- 學習將Wireframe轉換成實際UI
+- 學習統一按鈕、輸入框與卡片等UI元件
+- 學習設計Hover、點擊效果
+
+### 下一步
+
+- 完成剩餘頁面的UI設計
+- 統一各頁面的UI Component
+- 完成主要頁面的Prototype
+
+### AI 協助
+
+透過AI協助發想UI配色、版面配置與Component設計方式，並針對不同頁面的資訊層級提供設計建議。
+
+### 今日學習成果
+
+> **首頁 UI Design**
+
+![首頁UI](../screenshots/home-ui.png)
+
+> **醫院介紹頁 UI Design**
+
+![醫院介紹頁UI](../screenshots/about-ui.png)
