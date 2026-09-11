@@ -1,5 +1,5 @@
 #  智慧醫院管理平台
-## smart-hospital
+## SmartCare hospital
 
 > 一個以醫院線上預約掛號為核心的智慧醫院管理平台，
 > 從需求分析、UI/UX 設計、Prototype 開始，逐步進行前後端與資料庫開發。
