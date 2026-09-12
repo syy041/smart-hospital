@@ -64,10 +64,11 @@ header a:hover{
 .info{
     width: 40%;
     padding-left: 100px;
+    line-height: 1.4;
 }
 .info h2{
     color: #117FB7;
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 10px;
 }
 .info p{
@@ -88,7 +89,7 @@ header a:hover{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .hero img{
-    width: 450px;
+    width: 480px;
     height: 250px;
     border-radius: 60px;
 }
