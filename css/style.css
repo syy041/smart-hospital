@@ -36,11 +36,7 @@ header nav {
     color:#7C7B7B;
     text-decoration: none;
 }
-.login::selection{
-    background-color: #B5E6FF;
-    color:#484848;
-    text-decoration: none;
-}
+
 header ul{
     display: flex;
     list-style: none;
@@ -54,4 +50,44 @@ header a{
 }
 header a:hover{
     text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    background-color: #EAF4F8;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    width: 40%;
+    padding-left: 100px;
+}
+.info h2{
+    color: #117FB7;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.info a{
+    background-color: #619FBE;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-left: 45px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.reserve:hover{
+    background-color: #4F8EAE;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.hero img{
+    width: 450px;
+    height: 250px;
+    border-radius: 60px;
 }
