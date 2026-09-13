@@ -7,27 +7,28 @@ header{
 
 }
 header h1{   
-    padding-left: 200px;
-    width: 300px;
-    height: 80px;   
-    line-height: 80px;
+    margin-left: 300px;
+    width: 430px;
+    height: 94px;   
+    margin-top: 14px;
+    line-height: 90px;
     background-image: url('/image/logo.png');
-    background-size: 250px auto;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left center;
     text-indent: -9999px;
+    flex-shrink: 0;
 }
 header nav {
     margin-left: auto;
-    margin-right: 80px;
-    margin-top: 20px;
+    margin-right: 120px;
 }
 .login{
     border:1px solid #64ABD0;
-    padding: 10px;
+    padding: 10px 18px;
     border-radius:5px;
 }
-.login:hover{
+header a.login:hover{
     background-color: #D5F3FF;
     color:#7C7B7B;
     text-decoration: none;
@@ -37,14 +38,14 @@ header nav {
 header ul{
     display: flex;
     list-style: none;
-    line-height:80px;
-    gap: 40px;
+    line-height:100px;
+    gap: 48px;
 }
 
 header a{
     color: #484848;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 22px;
 }
 header a:hover{
     text-decoration: underline;
