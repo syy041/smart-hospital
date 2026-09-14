@@ -1,7 +1,7 @@
 header{
     display: flex;
     background-color: white;
-    height: 100px;
+    height: 110px;
     width: 100%;
     align-items: center;
 
@@ -10,7 +10,7 @@ header h1{
     margin-left: 300px;
     width: 430px;
     height: 94px;   
-    margin-top: 14px;
+    margin-top: 12px;
     line-height: 90px;
     background-image: url('/image/logo.png');
     background-size: contain;
@@ -22,6 +22,7 @@ header h1{
 header nav {
     margin-left: auto;
     margin-right: 120px;
+    margin-top: 20px;
 }
 .login{
     border:1px solid #64ABD0;
